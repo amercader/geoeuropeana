@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo Geo Europeana</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+<!--        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />-->
+        <link href="css/default.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+        <h1>Europeana API geo-wrapper</h1>
+        <div id="description">
+            Drag to pan, wheel to zoom, Ctrl + drag to query
+        </div>
+        <div id="nav">
+            <div id="perioddiv">
+                <label for="period">Filter by Historic Period</label>
+                <select id="period">
+                    <option value="all">-- All --</option>
+                    <option value="1000">1000</option>
+                    <option value="1100">1100</option>
+                    <option value="1200">1200</option>
+                    <option value="1300">1300</option>
+                    <option value="1400">1400</option>
+                    <option value="1500">1500</option>
+                    <option value="1600">1600</option>
+                    <option value="1700">1700</option>
+                    <option value="1800">1800</option>
+                    <option value="1900">1900</option>
+                    <option value="2000">2000</option>
+
+                    <option value="viking">Viking Age (875 - 950 AD) </option> 
+                    <option value="roman_republic">Roman Republic </option> 
+                    <option value="roman_kingdom">Roman Kingdom </option> 
+                    <option value="roman_empire">Roman Empire </option> 
+                    <option value="post_modern">post modern era </option> 
+                    <option value="neolithic">Neolithic </option> 
+                    <option value="modern">modern era </option> 
+                    <option value="medieval">Medieval </option> 
+                    <option value="iron_age">Iron Age </option> 
+                    <option value="greek_roman">Greek Roman period </option> 
+                    <option value="greek_postclassical">Post-classical period </option> 
+                    <option value="greek_hellenistic">Hellenistic period </option> 
+                    <option value="greek_classical">Classical period </option> 
+                    <option value="greek_archaic">archaic period </option> 
+                    <option value="greek_antiquity">Antiquity </option> 
+                    <option value="gallic">Gallo-Roman </option> 
+                    <option value="french_third_republic">IIIe République (1870-1940) </option> 
+                    <option value="french_second_republic">IIe République (1848-1851) </option> 
+                    <option value="french_second_empire">Second Empire (1852-1870) </option> 
+                    <option value="french_louis_philippe">règne de Louis-Philippe (1830-1848) </option> 
+                    <option value="french_louis_16">règne de Louis XVI (1774-1792) </option> 
+                    <option value="french_louis_15">règne de Louis XV (1723-1774) </option> 
+                    <option value="french_louis_14">règne de Louis XIV (1661-1715) </option> 
+                    <option value="french_first_empire">Premier Empire (1804-1814) </option> 
+                    <option value="egypt_lateperiod">Late Period </option> 
+                    <option value="egypt_greekroman">Greek-Roman </option> 
+                    <option value="early_modern">Période Moderne </option> 
+                    <option value="bronze_age">Bronze Age </option> 
+                    <option value="BC4xxx">4e millénaire avant J.-C. </option> 
+                    <option value="BC3xxx">3e millénaire avant J.-C. </option> 
+                    <option value="BC2xxx">2e millénaire avant J.-C. </option> 
+                    <option value="BC1xxx">1er millénaire avant J.-C. </option> 
+                    <option value="AD3xxx">3e millénaire après J.-C. </option> 
+                    <option value="AD2xxx">2e millénaire après J.-C. </option>
+                </select>
+            </div>
+            <input type="button" value="<<" id="first"/>
+            <input type="button" value="<" id="previous"/>
+            <span id="count">Draw a box on the map to start</span>
+            <input type="button" value=">" id="next"/>
+            <input type="button" value=">>" id="last"/>
+        </div>
+
+        <div id="map">
+        <div id="loading" class="notifier"><img src="img/load.gif" alt="" /> Loading</div>
+        <div id="message" class="notifier"></div>
+
+        </div>
+        <script type="text/javascript" src="js/openlayers/OpenLayers.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
+
+        <script type="text/javascript" language="javascript" src="js/app.js"></script>
+    </body>
+</html>

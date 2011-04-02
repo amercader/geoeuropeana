@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+   <channel>
+     <title>Europeana Open Search result</title>
+     <link>http://api.europeana.eu/api/opensearch.rss?searchTerms=enrichment_place_latitude%3A%5B42.032974332764%20TO%2047.040182144911%5D%20AND%20enrichment_place_longitude%3A%5B5.5371093750667%20TO%2014.414062499712%5D&amp;startPage=1</link>
+     <description>enrichment_place_latitude:[42.032974332764 TO 47.040182144911] AND enrichment_place_longitude:[5.5371093750667 TO 14.414062499712] - Europeana Open Search</description>
+     <opensearch:totalResults>44734</opensearch:totalResults>
+     <opensearch:startIndex>0</opensearch:startIndex>
+     <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+     <atom:link rel="search" type="application/opensearchdescription+xml" href="http://api.europeana.eu/api/opensearch.rss.xml" title="Europeana Search"/>
+     <opensearch:Query role="request" searchTerms="enrichment_place_latitude:[42.032974332764 TO 47.040182144911] AND enrichment_place_longitude:[5.5371093750667 TO 14.414062499712]" startPage="1"/>
+     <item>
+        <title>Saint-R&#233;verien - La taille des pav&#233;s de gr&#232;s</title>
+        <link>http://www.europeana.eu/portal/record/03901/27F7F182E3B91FA32C744A4F9042E3C9A435A48D.srw?wskey=LTRGRDYQGD</link>
+        <description>anonyme (photographe);1906;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0322/m013989_0001208_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">45.16667 5.83333</georss:point></item>
+     <item>
+        <title> </title>
+        <link>http://www.europeana.eu/portal/record/03901/E8DADD128FD9AC4244F0FD11DB9A1D523C79DF9C.srw?wskey=LTRGRDYQGD</link>
+        <description>anonyme (verrier) ; GRESLY Thomas (attribu&#233;);1739;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0322/m013703_0006904_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">47.0 6.0</georss:point></item>
+     <item>
+        <title> </title>
+        <link>http://www.europeana.eu/portal/record/03901/0C556901E035178C6E18649FAC6ACD3C771731E3.srw?wskey=LTRGRDYQGD</link>
+        <description>GRESLY Thomas (verrier);Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0322/m013703_0006901_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">47.0 6.0</georss:point></item>
+     <item>
+        <title>Picasso</title>
+        <link>http://www.europeana.eu/portal/record/03901/9D7DE1514E12761F956514BE9F094ED8D48BE821.srw?wskey=LTRGRDYQGD</link>
+        <description>TATIN Robert ; Laval, 1902 ; Coss&#233;-le-Vivien, 1983;1959;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0326/m076304_b0020_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.71667 7.11667</georss:point></item>
+     <item>
+        <title>Chacara Ma&#252;a Bresil</title>
+        <link>http://www.europeana.eu/portal/record/03901/302F3AFB6997E59B3FF1499101DAAA2C516BAE40.srw?wskey=LTRGRDYQGD</link>
+        <description>TATIN Robert ; Laval, 1902 ; Coss&#233;-le-Vivien, 1983;1959;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0326/m076304_b0024_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.71667 7.11667</georss:point></item>
+     <item>
+        <title>Signes</title>
+        <link>http://www.europeana.eu/portal/record/03901/C965B2492EFCCB1D7A5BCB696AB00941D3A515C1.srw?wskey=LTRGRDYQGD</link>
+        <description>TATIN Robert ; Laval, 1902 ; Coss&#233;-le-Vivien, 1983;1957;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0326/m076304_b0050_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.71667 7.11667</georss:point></item>
+     <item>
+        <title>Nuit &#233;toil&#233;e ou Initiation</title>
+        <link>http://www.europeana.eu/portal/record/03901/8FFE1AFBA1337AB2D900CFCCED97D48F06F578C4.srw?wskey=LTRGRDYQGD</link>
+        <description>TATIN Robert ; Laval, 1902 ; Coss&#233;-le-Vivien, 1983;1962;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0326/m076304_b0061_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.71667 7.11667</georss:point></item>
+     <item>
+        <title>Le Bateau</title>
+        <link>http://www.europeana.eu/portal/record/03901/933B1250735FCEF9A54170FA8D5C97D9ED6D20C4.srw?wskey=LTRGRDYQGD</link>
+        <description>TATIN Robert ; Laval, 1902 ; Coss&#233;-le-Vivien, 1983;1957;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0326/m076304_b0091_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.71667 7.11667</georss:point></item>
+     <item>
+        <title> </title>
+        <link>http://www.europeana.eu/portal/record/03901/F7B1FF22AC58CE4E5F207265246CA6D770464E2B.srw?wskey=LTRGRDYQGD</link>
+        <description>Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0346/m502185_0035914_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">45.43861 12.32667</georss:point></item>
+     <item>
+        <title> </title>
+        <link>http://www.europeana.eu/portal/record/03901/FBDE48D5B268D96DED138B7B5130D88A9D8D6843.srw?wskey=LTRGRDYQGD</link>
+        <description>FABRE Marius;1954;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0381/m500229_0008419_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.5 6.33333</georss:point></item>
+     <item>
+        <title>Monstrance-reliquaire</title>
+        <link>http://www.europeana.eu/portal/record/03901/C032488B499E23B7FEA6A94E3420FC17B6D68C0E.srw?wskey=LTRGRDYQGD</link>
+        <description>1320;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0358/m500303_0009366_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">45.5 11.75</georss:point></item>
+     <item>
+        <title>Monstrance-reliquaire de Sienne</title>
+        <link>http://www.europeana.eu/portal/record/03901/55425240A618EE2F2DE07C020200B0F0617CADA8.srw?wskey=LTRGRDYQGD</link>
+        <description>1331;Culture.fr/collections</description>
+         <enclosure url="http://www.culture.gouv.fr/Wave/image/joconde/0358/m500303_0000281_v.jpg"/>
+     <georss:point xmlns:georss="http://www.georss.org/georss">43.41667 11.0</georss:point></item>
+   </channel>
+ </rss>

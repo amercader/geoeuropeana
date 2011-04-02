@@ -1,0 +1,6 @@
+build
+dist
+geoeuropeana.egg-info
+data
+*.pyc
+*.swp

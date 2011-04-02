@@ -1,0 +1,3 @@
+include geoeuropeana/config/deployment.ini_tmpl
+recursive-include geoeuropeana/public *
+recursive-include geoeuropeana/templates *
