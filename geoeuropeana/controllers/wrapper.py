@@ -1,7 +1,7 @@
 import logging
 
 from pylons import request, response, session, tmpl_context as c
-from pylons.controllers.util import abort, redirect_to
+from pylons.controllers.util import abort
 
 from geoeuropeana.lib.base import BaseController
 
@@ -15,8 +15,6 @@ class WrapperController(BaseController):
     api_base = 'http://api.europeana.eu/api/opensearch.rss'
     
     namespaces = {
-        'rss':{
-        },
         'srw':{
             'srw':'http://www.loc.gov/zing/srw/',
             'dc':'http://purl.org/dc/elements/1.1/',

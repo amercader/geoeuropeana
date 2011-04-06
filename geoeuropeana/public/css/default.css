@@ -7,6 +7,12 @@ body{
     margin: 1em 0;
 }
 
+#controls{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #E7E7E7;
+}
+
 #map {
     background-color: #e7e7e7;
 }

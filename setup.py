@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 try:
     from setuptools import setup, find_packages
 except ImportError:
@@ -7,13 +8,14 @@ except ImportError:
 
 setup(
     name='geoeuropeana',
-    version='0.1',
-    description='',
-    author='',
-    author_email='',
-    url='',
+    version='0.1dev',
+    description='Wrapper for the Europeana API to return GeoRSS + Demo app',
+    author=u'Adrià Mercader',
+    author_email='amercadero@gmail.com',
+    url='http://amercader.net',
     install_requires=[
         "Pylons>=0.9.7",
+        "lxml>=2.3"
     ],
     setup_requires=["PasteScript>=1.6.3"],
     packages=find_packages(exclude=['ez_setup']),

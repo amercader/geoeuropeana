@@ -101,7 +101,7 @@ var GE = function($){
             //TODO: use jQuery templates
             var html = "<div class=\"popup\">";
                 
-//           html += "<div class=\"data\">"
+            // html += "<div class=\"data\">"
             if (feature.data.title.trim()){
                 html += "<div class=\"title\">" + feature.data.title +"</div>";
             } else {
